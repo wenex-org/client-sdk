@@ -1,0 +1,6 @@
+export enum TemplateType {
+  WELCOME = 'WELCOME',
+  OTP_CODE = 'OTP_CODE',
+  VERIFICATION = 'VERIFICATION',
+  RESET_PASSWORD = 'RESET_PASSWORD',
+}
