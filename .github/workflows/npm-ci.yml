@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      packages: write
+      id-token: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -28,11 +28,14 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+        
+      - name: Upgrade npm to latest (≥11.5.2)
+        run: npm install -g npm@11.5.2
 
       - name: Run tests and build project
         run: npm test && npm run build
 
       - name: Publish to npm registry
-        run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish --provenance --access public
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
