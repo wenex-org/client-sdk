@@ -1,4 +1,4 @@
-# client-sdk
+# Client SDK
 
 [![npm](https://img.shields.io/npm/v/@wenex/client-sdk)](https://www.npmjs.com/package/@wenex/client-sdk)
 [![Build Status](https://github.com/wenex-org/client-sdk/actions/workflows/npm-ci.yml/badge.svg)](https://github.com/wenex-org/client-sdk/actions/workflows/npm-ci.yml)
