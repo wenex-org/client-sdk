@@ -1,6 +1,6 @@
 {
   "name": "@wenex/client-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Client SDK",
   "main": "index.js",
   "types": "index.d.ts",
