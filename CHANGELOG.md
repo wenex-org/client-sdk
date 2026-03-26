@@ -7,11 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-03-26
+
+### Changed
+
+- release test using trusted publisher @vhidvz
+
 ## [1.0.0] - 2025-01-01
 
 ### Added
 
 - initial release 🎉​🎊​.
 
-[unreleased]: https://github.com/wenex-org/client-sdk/compare/1.0.0...HEAD
+[unreleased]: https://github.com/wenex-org/client-sdk/compare/1.0.1...HEAD
+[1.0.1]: https://github.com/wenex-org/client-sdk/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/wenex-org/client-sdk/releases/tag/1.0.0
