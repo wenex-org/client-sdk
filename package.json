@@ -1,5 +1,5 @@
 {
-  "name": "@wenex/client",
+  "name": "@wenex/client-sdk",
   "version": "1.0.0",
   "description": "Client SDK",
   "main": "index.js",
