@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- README's getting-started steps count 1–3 instead of 1, 3, 4. @vhidvz
+
 ## [1.0.1] - 2026-03-26
 
 ### Changed

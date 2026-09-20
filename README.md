@@ -14,13 +14,13 @@ git clone git@github.com:wenex-org/client-sdk.git
 cd client-sdk
 ```
 
-3. **Install dependencies:**
+2. **Install dependencies:**
 
 ```bash
 pnpm install
 ```
 
-4. **Set up Husky Git hooks (for development):**
+3. **Set up Husky Git hooks (for development):**
 
 ```bash
 npm run husky
